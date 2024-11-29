@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="mt-5">
+    <h2>Track Your Request</h2>
+    <p><strong>Service Type:</strong> {{ service_request.service_type }}</p>
+    <p><strong>Description:</strong> {{ service_request.description }}</p>
+    <p><strong>Status:</strong> {{ service_request.status }}</p>
+    <p><strong>Submitted At:</strong> {{ service_request.submitted_at }}</p>
+    <p><strong>Updated At:</strong> {{ service_request.updated_at }}</p>
+</div>
+{% endblock %}
